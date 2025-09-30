@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Gabriella Clairine</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="dashboard.html" class="nav-link active">Dashboard</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Dashboard Section -->
+    <section class="dashboard-section">
+        <div class="container">
+            <div class="section-header">
+                <h1>Dashboard Showcase</h1>
+                <p>Use the buttons to navigate through the interactive dashboards</p>
+            </div>
+        </div>
+
+        <div class="dashboard-slider">
+            <div class="slider-track">
+                <!-- Dashboard 1 (Netflix Dashboard) -->
+                <div class="dashboard-card">
+                    <h3>Netflix Content Analysis</h3>
+                    <p>An in-depth analysis of the Netflix library, exploring content distribution by country, genre, and audience ratings.</p>
+                    <div class='tableauPlaceholder' id='viz1759217443750'>
+                        <noscript><a href='#'><img alt='Final ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NetflixDashboard_17327225936380&#47;Final&#47;1_rss.png' style='border: none' /></a></noscript>
+                        <object class='tableauViz' style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' /><param name='name' value='NetflixDashboard_17327225936380&#47;Final' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' />
+                        </object>
+                    </div>
+                    <script type='text/javascript'>
+                        var divElement = document.getElementById('viz1759217443750');
+                        if (divElement) {
+                            var vizElement = divElement.getElementsByTagName('object')[0];
+                            vizElement.style.width = '100%';
+                            vizElement.style.height = '100%';
+                            var scriptElement = document.createElement('script');
+                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                        }
+                    </script>
+                </div>
+                <!-- Dashboard 2 -->
+                <div class="dashboard-card">
+                    <h3>Marketing Campaign ROI</h3>
+                    <p>Tracks the return on investment for various marketing campaigns across different channels.</p>
+                    <div class="dashboard-embed">
+                        <iframe src="https://public.tableau.com/views/your-dashboard/MarketingROI?:language=en-US" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- Dashboard 3 -->
+                <div class="dashboard-card">
+                    <h3>Customer Segmentation</h3>
+                    <p>An analysis of customer segments based on purchasing behavior and demographics.</p>
+                    <div class="dashboard-embed">
+                        <iframe src="https://public.tableau.com/views/your-dashboard/CustomerSegments?:language=en-US" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- Dashboard 4 -->
+                <div class="dashboard-card">
+                    <h3>Supply Chain Analytics</h3>
+                    <p>Dashboard for optimizing inventory levels, logistics, and supplier performance.</p>
+                    <div class="dashboard-embed">
+                        <iframe src="https://public.tableau.com/views/your-dashboard/SupplyChain?:language=en-US" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <button class="slider-button prev">&lt;</button>
+            <button class="slider-button next">&gt;</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Gabriella Clairine. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
