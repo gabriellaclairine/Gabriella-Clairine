@@ -220,17 +220,17 @@ main {
 
 .section-header {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 }
 
 .section-header h1 {
-    font-size: 2.5rem;
+    font-size: 5rem;
     color: var(--text-light);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .section-header p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: var(--text-normal);
     max-width: 600px;
     margin: 0 auto;
