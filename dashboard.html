@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
+    <!-- Navigasi Anda di sini -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
@@ -21,86 +21,117 @@
                 <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
             <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
             </div>
         </div>
     </nav>
 
-    <!-- Dashboard Section -->
-    <section class="dashboard-section">
-        <div class="container">
-            <div class="section-header">
-                <h1>Dashboard Showcase</h1>
-                <p>Use the buttons to navigate through the interactive dashboards</p>
-            </div>
-        </div>
-
-        <div class="dashboard-slider">
-            <div class="slider-track">
-                <!-- Dashboard 1 (Netflix Dashboard) -->
-                <div class="dashboard-card">
-                    <h3>Netflix Content Analysis</h3>
-                    <p>An in-depth analysis of the Netflix library, exploring content distribution by country, genre, and audience ratings.</p>
-                    <div class='tableauPlaceholder' id='viz1759217443750'>
-                        <noscript><a href='#'><img alt='Final ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NetflixDashboard_17327225936380&#47;Final&#47;1_rss.png' style='border: none' /></a></noscript>
-                        <object class='tableauViz' style='display:none;'>
-                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-                            <param name='embed_code_version' value='3' />
-                            <param name='site_root' value='' /><param name='name' value='NetflixDashboard_17327225936380&#47;Final' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' />
-                        </object>
-                    </div>
-                    <script type='text/javascript'>
-                        var divElement = document.getElementById('viz1759217443750');
-                        if (divElement) {
-                            var vizElement = divElement.getElementsByTagName('object')[0];
-                            vizElement.style.width = '100%';
-                            vizElement.style.height = '100%';
-                            var scriptElement = document.createElement('script');
-                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-                            vizElement.parentNode.insertBefore(scriptElement, vizElement);
-                        }
-                    </script>
-                </div>
-                <!-- Dashboard 2 -->
-                <div class="dashboard-card">
-                    <h3>Marketing Campaign ROI</h3>
-                    <p>Tracks the return on investment for various marketing campaigns across different channels.</p>
-                    <div class="dashboard-embed">
-                        <iframe src="https://public.tableau.com/views/your-dashboard/MarketingROI?:language=en-US" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <!-- Dashboard 3 -->
-                <div class="dashboard-card">
-                    <h3>Customer Segmentation</h3>
-                    <p>An analysis of customer segments based on purchasing behavior and demographics.</p>
-                    <div class="dashboard-embed">
-                        <iframe src="https://public.tableau.com/views/your-dashboard/CustomerSegments?:language=en-US" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <!-- Dashboard 4 -->
-                <div class="dashboard-card">
-                    <h3>Supply Chain Analytics</h3>
-                    <p>Dashboard for optimizing inventory levels, logistics, and supplier performance.</p>
-                    <div class="dashboard-embed">
-                        <iframe src="https://public.tableau.com/views/your-dashboard/SupplyChain?:language=en-US" frameborder="0" allowfullscreen></iframe>
-                    </div>
+    <main>
+        <section class="dashboard-section">
+            <div class="container">
+                <div class="section-header">
+                    <h1>Dashboard Showcase</h1>
+                    <p>Use the buttons to navigate through the interactive dashboards</p>
                 </div>
             </div>
 
-            <button class="slider-button prev">&lt;</button>
-            <button class="slider-button next">&gt;</button>
-        </div>
-    </section>
+            <!-- Slider Container -->
+            <div class="dashboard-slider">
+                <div class="slider-track">
+                    <!-- Dashboard 1: Netflix Content Analysis -->
+                    <div class="dashboard-card">
+                        <h3>Netflix Content Analysis</h3>
+                        <p>It provides a deep dive into Netflix’s global catalog, focusing on distribution by country, genres, and audience preferences.</p>
+                        <div class='tableauPlaceholder' id='viz_netflix'>
+                            <object class='tableauViz'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                <param name='embed_code_version' value='3' />
+                                <param name='site_root' value='' /><param name='name' value='NetflixDashboard_17327225936380&#47;Final' />
+                                <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                                <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' /><param name='language' value='en-US' />
+                            </object>
+                        </div>
+                    </div>
 
-    <!-- Footer -->
+                    <!-- Dashboard 2: Sales Dashboard Overview -->
+					<div class="dashboard-card">
+						<h3>Sales Dashboard Overview</h3>
+						<p>Key performance metrics such as sales, profit, and quantity are tracked with detailed breakdowns by state, segment, and manager.</p>
+						<div class='tableauPlaceholder' id='viz_sales'>
+							<object class='tableauViz'>
+								<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+								<param name='embed_code_version' value='3' />
+								<param name='site_root' value='' />
+								<param name='name' value='SalesDashboard_17588164021450&#47;SalesDashboard' />
+								<param name='tabs' value='no' />
+								<param name='toolbar' value='yes' />
+								<param name='animate_transition' value='yes' />
+								<param name='display_static_image' value='yes' />
+								<param name='display_spinner' value='yes' />
+								<param name='display_overlay' value='yes' />
+								<param name='display_count' value='yes' />
+								<param name='language' value='en-US' />
+							</object>
+						</div>
+					</div>
+
+
+
+                    <!-- Dashboard 3: British Airways Reviews -->
+                    <div class="dashboard-card">
+                        <h3>British Airways Reviews</h3>
+                        <p>Customer feedback is visualized to reveal rating patterns across services, aircraft types, traveler categories, and world regions.</p>
+                        <div class='tableauPlaceholder' id='viz_ba_reviews'>
+                            <object class='tableauViz'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                <param name='embed_code_version' value='3' />
+                                <param name='site_root' value='' />
+                                <param name='name' value='BritishAirwaysReviews_17587313151880&#47;Dashboard1' />
+                                <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                                <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' /><param name='language' value='en-US' />
+                            </object>
+                        </div>
+                    </div>
+
+                    <!-- Dashboard 4: Lifestyle and Wellbeing Insights -->
+                    <div class="dashboard-card">
+                        <h3>Lifestyle and Wellbeing Insights During Lockdown</h3>
+                        <p>This dashboard explores how people managed their routines, health, and stress relief activities throughout the lockdown period.</p>
+                        <div class='tableauPlaceholder' id='viz_lockdown_insights'>
+                            <object class='tableauViz'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                <param name='embed_code_version' value='3' />
+                                <param name='site_root' value='' />
+                                <param name='name' value='LifestyleandWellbeingInsightsDuringLockdown&#47;Dashboard2' />
+                                <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                                <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' /><param name='language' value='en-US' />
+                            </object>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slider Buttons -->
+                <button class="slider-button prev">&lt;</button>
+                <button class="slider-button next">&gt;</button>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer Anda di sini -->
     <footer class="footer">
         <div class="container">
             <p>&copy; 2025 Gabriella Clairine. All rights reserved.</p>
         </div>
     </footer>
 
+    <!-- PENTING: Skrip Tableau dimuat satu kali di sini -->
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
     <script src="script.js" defer></script>
 </body>
 </html>
